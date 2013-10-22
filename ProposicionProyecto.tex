@@ -62,21 +62,27 @@
 \maketitle
 
 \section{Introduccion y Justificacion}
+El proyecto esta previsto ser una plataforma virtual de FPS (First-Person Shooter), el cual permitira al usuario colocarse en frente de una pantalla en la que mediante gestos de las manos pueda disparar a blancos o enemigos que se acerquen a su personaje. Mediante estos gestos se pueden realizar otras acciones tales como: recargar, cambiar arma y moverse; a lejandose un poco del juego a distancia si el jugador no logra derribar a su openente hasta cuando aun se encuentra lejos este podra utilizar una espada como arma melee. En un esfuerzo por usar mas interacciones entre el jugador y el juego, se podra realizar acciones que complementen el juego mediante comandos verbales por parte del jugador.\\
+
+Este juego aporta el aspecto del area virtual de la clase permitiendo al sujeto aprovechar la Powerwall como pantalla para el usuario en el que le permite dar una visualizacion mas abierta del juego y un mayor area de interactibilidad. Simulando el aspecto de profundidad que soporta los graficos de la Powerwall se utilizan las gafas 3D para generar una experiencia mas vivida para el jugador dandole la sensacion de inmersidad.\\
+
+Finalmente el rastreador infrarojo sera la coneccion entre las interacciones y gestos del cuerpo del usuario con la aplicacion ayudando a determinar cuando el usuario: cambia de arma, se mueve, dispara y hacia donde dispara utilizando sensores para lograr una mayor precision.
+
 \section{Marco Teorico}
 \section{Analisis}
 \section {Recursos}
 
-PowerWall\\
+\subsection{Powerwall}
 La Powerwall es una pantalla de pared capaz de proyectar CGI de gran tamaño de forma nitida debido a su muy alta resolucion.
 
 La Powerwall esta compuesta de varias pantallas mas pequeñas de alta resolucion, comunmente de 1600x1200 pixeles, por lo cual conserva su densidad de pixeles sin deteriorar la imagen a pesar de su gran tamaño. Las dimensiones del conjunto de pantallas al unirse suele tener dimensiones entre 3-16 m de largo y 3-4 m de alto.
 
 Manufacturadores de las pantallas ofrecen a sus clientes ciertos niveles de personalizacion, en favor de que las pantallas se acoplen con mayor facilidad a las aplicaciones que se les quiera dar.\\
 
-3D Glasses\\
-Las gafas de 3D que se utilizan son de estereoscopia tridimensional activa los cuales, se diferencian del resto por tener componentes electronicos que interactuan con la imagen. Esta funciona presentando completamente la imagen destinada al ojo derecho mientras que bloquea la del ojo izquierdo y viceversa. Esta presentacion se repite con una freecuencia tan alta que el usuario percibe la fusion de las dos imagenes 2D como una sola iamgen 3D sin ser interrumpido por el cambio.\\
+\subsection{Gafas 3D}
+Las gafas de 3D que se utilizan son de estereoscopia tridimensional activa los cuales, se diferencian de los pasivos por tener componentes electronicos que interactuan con la imagen. Esta funciona presentando completamente la imagen destinada al ojo derecho mientras que bloquea la del ojo izquierdo y viceversa. Esta presentacion se repite con una freecuencia tan alta que el usuario percibe la fusion de las dos imagenes 2D como una sola imagen 3D sin ser interrumpido por el cambio.\\
 
-IR Tracker\\
-
+\subsection{IR Tracker}
+La tecnologia de IR Tracking es muy popular ultimamente debido a los dispositivos de video juegos que implementan estos rastreadores para obtener la localizacion de un punto en el espacio. A pesar de que el publico esta mas acostumbrado a la forma de un sensor que determina una localizacion promedio con respecto a los controladores enfrente a una pantalla, existe tambien las camaras especializadas que al colocarlas en una habitacion y tras ser calibradas pueden detectar movimientos y localizaciones con error milimetrico. Estas posiciones y gestos son rastreados a traves de un espacio cartesiano con origen en una de las camaras y retornan las coordenadas de los puntos analizados
 
 \end{document}
