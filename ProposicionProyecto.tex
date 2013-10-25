@@ -69,7 +69,19 @@ Este juego aporta el aspecto del area virtual de la clase permitiendo al sujeto 
 Finalmente el rastreador infrarojo sera la coneccion entre las interacciones y gestos del cuerpo del usuario con la aplicacion ayudando a determinar cuando el usuario: cambia de arma, se mueve, dispara y hacia donde dispara utilizando sensores para lograr una mayor precision.
 
 \section{Marco Teorico}
+Para este proyecto se van a requerir elementos periféricos de realidad virtual, el mayor problema que se presentará será detectar la ubicación del jugador y el lugar al cual se está apuntando (tracking) para esto se necesitarán al menos dos cámaras. A parte usaremos un servidor VRPN la que deberemos estudiar para  lograr el tracking entre otras cosas.
+
+Para hacer seguimiento de la posición del jugador se usarán cámaras Ir Tracking y con los datos en la computadora deberá hacer sus respectivos cálculos para hallar la posición del usuario.
+
+Sobre el disparo, al presionar el gatillo las cámaras deberían reconocer la dirección a donde se apunta y en la computadora el programa deberá detectar el punto en la pantalla.
+
+Los elementos dentro del juego serán creados con el uso de técnicas conocidas de gráficos por computadoras, con las que también podremos diseñar el ambiente.\\
+
 \section{Analisis}
+Frente a una gran pantalla Powerwall se mostrarán en imágenes estéreos los blancos a disparar, lo más importante será detectar la posición del jugador y donde apunta el arma.
+
+Aunque por el momento desconocemos algunas cosas de cómo funcionarán los equipos que usaremos.\\
+
 \section {Recursos}
 
 \subsection{Powerwall}
